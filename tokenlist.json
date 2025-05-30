@@ -1,0 +1,21 @@
+{
+  "name": "LEVA Token List",
+  "logoURI": "https://raw.githubusercontent.com/leva-token-assets/leva/main/952F797A-7323-4A07-BA91-2DCB0CF068FE.PNG",
+  "keywords": ["leva", "ai", "agent", "execution", "strategy"],
+  "timestamp": "2025-05-30T08:00:00+00:00",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "tokens": [
+    {
+      "chainId": 8453,
+      "address": "0xecce463abc253fad0c998898b0762a51ad0eac57",
+      "name": "LEVA",
+      "symbol": "LEVA",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/leva-token-assets/leva/main/952F797A-7323-4A07-BA91-2DCB0CF068FE.PNG"
+    }
+  ]
+}
