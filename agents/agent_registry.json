@@ -1,0 +1,29 @@
+[
+  {
+    "id": "LEVA-GTM-01",
+    "name": "Go-To-Market Mapper",
+    "version": "1.0.0",
+    "schema": "gtm_schema_v1.json",
+    "description": "Builds a structured go-to-market strategy based on product stage, traction signals, and sales channels.",
+    "tags": ["strategy", "growth", "gtm"],
+    "status": "active"
+  },
+  {
+    "id": "LEVA-INVEST-02",
+    "name": "Investor Memo Generator",
+    "version": "1.0.0",
+    "schema": "investor_memo_schema_v1.json",
+    "description": "Generates an investor-facing memo based on raise amount, valuation, and founder background.",
+    "tags": ["funding", "narrative", "investor"],
+    "status": "active"
+  },
+  {
+    "id": "LEVA-PRICING-03",
+    "name": "Pricing Diagnostics Agent",
+    "version": "1.0.0",
+    "schema": "pricing_diagnostics_schema_v1.json",
+    "description": "Calibrates pricing based on cost structure, competitive landscape, and perceived value.",
+    "tags": ["pricing", "ops", "strategy"],
+    "status": "active"
+  }
+]
