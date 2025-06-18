@@ -1,0 +1,49 @@
+# Agent: Go-To-Market Mapper (LEVA-GTM-01)
+
+**Schema:** gtm_schema_v1.json  
+**Version:** 1.0.0  
+**Status:** Active  
+**Tags:** strategy, growth, GTM
+
+---
+
+## 🧠 Agent Purpose
+
+The Go-To-Market Mapper evaluates early-stage traction, product readiness, and buyer dynamics to generate a structured GTM strategy. It is designed to help founders calibrate outreach, refine messaging, and choose effective sales channels based on context—not guesswork.
+
+---
+
+## 🧩 Input Schema (gtm_schema_v1.json)
+
+| Field           | Type     | Description                                      |
+|----------------|----------|--------------------------------------------------|
+| product_stage  | string   | Current stage of the product (e.g. MVP, Beta)    |
+| target_market  | string   | Intended market vertical                         |
+| buyer_signal   | string   | Description of buyer interest or interaction     |
+| sales_channels | string[] | List of current or planned distribution methods  |
+
+---
+
+## 🔁 Logic Path
+
+1. **Evaluate product_stage** to determine market entry maturity  
+2. **Map buyer_signal** to match known B2B/B2C buying patterns  
+3. **Match target_market** with proven GTM approaches in Eleva's data  
+4. **Select or recommend optimal sales_channels** based on alignment  
+5. **Return structured GTM plan** with tactical actions and messaging cues
+
+---
+
+## 📤 Output (example structure)
+
+```json
+{
+  "recommended_strategy": "Land and expand",
+  "primary_channels": ["LinkedIn outreach", "Inbound SEO"],
+  "positioning_cue": "Credibility in underserved market",
+  "next_steps": [
+    "Run a 3-week outbound test",
+    "Set up product landing page with CTAs",
+    "Define activation metric by user segment"
+  ]
+}
