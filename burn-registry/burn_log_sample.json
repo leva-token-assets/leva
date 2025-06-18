@@ -1,0 +1,20 @@
+[
+  {
+    "burn_tx": "0x9a4b8c113e7fc6f7a6b92b1d1f2c8a61a96e27475d01fefc99c3b2a1fd8b1234",
+    "timestamp": "2025-06-01T14:23:08Z",
+    "agent_id": "LEVA-GTM-01",
+    "schema_version": "1.0.0",
+    "output_ipfs": "ipfs://bafybeidc6mqpzkwkpbk3hl7l2gp3t6a2ijyxqmkcm7bxk4uqp6k5e3a5ia",
+    "output_hash": "0x1c77f8421f5a1ce3274d59a3b08b4c3f0cc9a3c8e0e8f9d0f03bc00dc9b33c12",
+    "status": "executed"
+  },
+  {
+    "burn_tx": "0x7f84aebd6db86c82fe37b44b3a9237d4a4a20d3f9b2c327d6d31360ce3a71259",
+    "timestamp": "2025-06-03T09:14:42Z",
+    "agent_id": "LEVA-INVEST-02",
+    "schema_version": "1.0.0",
+    "output_ipfs": "ipfs://bafybeihd4spprvcc2vtjbobk63fbz46qnsdl5mfmb5j7q5ttzwx3sxflbq",
+    "output_hash": "0x547a223cc2933f0326e72c5c0f5b7a2e3722efc70c5539f86b72a8b932c8d4c6",
+    "status": "executed"
+  }
+]
