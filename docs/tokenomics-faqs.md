@@ -68,8 +68,6 @@ There are **no passive functions, no governance voting rights, and no inflation 
 
 No. LEVA has not raised any external funding.
 
-The protocol was bootstrapped with approximately **€120,000 in promoter capital**.
-
 ---
 
 ## 🤝 Are there any VC allocations?
