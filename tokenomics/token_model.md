@@ -1,90 +1,107 @@
-# LEVA Protocol – Tokenomics Architecture
+# LEVA Protocol — Tokenomics Architecture (Refined)
 
-LEVA is a fixed-supply, non-inflationary execution token that functions as the cryptographic trigger for strategic coordination. Each LEVA token burned initiates a schema-bound agent and generates a structured output — verifiable, versioned, and irreversible. The protocol is designed around action, not speculation: tokens are not staked, yielded, redistributed, or governed. They are consumed through one function only — execution.
+---
+
+## Overview
+
+**LEVA** is a fixed-supply, non-inflationary **execution asset** designed to anchor verifiable strategy orchestration. Each LEVA unit consumed triggers a schema-bound agent, generating a versioned, auditable output. The core design principle remains supply finality: tokens are removed from circulation permanently through execution, not speculation.
 
 ---
 
 ## 1. Supply
 
-LEVA has a permanently fixed total supply of 100,000,000 tokens.
-
-There is no mint function, no inflation schedule, and no emission rights. The protocol architecture is structured such that token flow is one-directional: from circulating supply to irreversible consumption. Tokens do not circulate between users; they are not transferred to agents, validators, or treasuries. Each token burned represents a permanent reduction in supply and the triggering of a verifiable strategic logic.
+**Total Supply:** 100,000,000 LEVA (fixed forever)  
+- No mint function  
+- No inflation schedule  
+- No hidden emissions  
+- Once consumed, supply exits permanently
 
 ---
 
 ## 2. Allocation Framework
 
-LEVA’s initial allocation is divided into five high-integrity categories, each mapped to a distinct functional layer of the protocol:
+Supply is structured across five functional tracks to balance immediate usage, contributor incentives, and ecosystem longevity:
 
-**Public LBP — 10% (10,000,000 LEVA)**  
-This constitutes the only public sale of LEVA tokens and will be executed via a Fjord LBP on Base. These tokens are fully circulating, with no vesting or lockup, and form the liquidity foundation for Phase 1: Protocol Ignition. Every token sold enters public hands, not insider wallets.
+**Public Circulation — 10% (10M LEVA)**  
+Allocated for initial market activation and circulating supply. Fully unlocked and non-vesting.
 
-**Founding Team — 15% (15,000,000 LEVA)**  
-Allocated to the protocol’s founding contributors and infrastructure team. These tokens are subject to a 12-month cliff followed by 36-month linear vesting, with no acceleration clauses, backdoors, or early unlocks. Team tokens are fully locked and excluded from any governance exposure or control privileges.
+**Founding Team — 15% (15M LEVA)**  
+Locked for 12 months, then released linearly over 36 months. No fast-track unlocks, no governance control privileges.
 
-**Ecosystem Incentives — 25% (25,000,000 LEVA)**  
-Reserved for schema developers, execution engineers, and infrastructure contributors. These tokens are not pre-allocated; they are released against demonstrable technical contribution validated through registry integration and schema performance metrics. This pool includes UX contributors, schema testers, and third-party composability partners.
+**Ecosystem Pool — 20% (20M LEVA)**  
+Allocated for builders, schema developers, UX contributors, and registry maintainers. Released only for validated contributions — milestone-based, performance-tied, no passive farming.
 
-**Validator & Agent Network — 20% (20,000,000 LEVA)**  
-Allocated to schema validators and agent registry maintainers. These actors perform active protocol functions — enforcing logic boundaries, verifying version integrity, and maintaining schema reliability. Rewards are structured as milestone-based unlocks or validator grants, not yield or emissions.
+**Staking & Delegation Vault — 20% (20M LEVA)**  
+Allocated for staking incentives. This pool provides burn credits, capacity discounts, and delegated execution rights — not idle yield or inflationary drip. When used, staking credits are destroyed with execution.
 
-**Long-Term Treasury Reserve — 30% (30,000,000 LEVA)**  
-Time-locked reserve controlled by protocol contracts for future infrastructure expansion, cross-chain deployment, or validator onboarding. This reserve is not liquid at launch and is not tied to operations. There is no treasury management team, no allocation committee, and no spend authorization — these tokens are inert until future composability paths are defined.
-
----
-
-## 3. Vesting & Lock Terms
-
-All team-held and reserve tokens are subject to strict lock conditions:
-
-The founding team’s allocation is subject to a 12-month cliff followed by 36-month linear vesting. Treasury and validator tokens are programmatically locked and unreleased until protocol maturity triggers are met. There are no early unlocks, token-based advisory deals, or emissions-based incentives embedded in the vesting architecture. All circulating supply at launch originates solely from the LBP allocation.
+**Long-Term Reserve — 35% (35M LEVA)**  
+Locked for future cross-chain deployments, validator onboarding, or composability extensions. Programmatic unlocks only; no ad hoc treasury spending.
 
 ---
 
-## 4. Revenue & Value Capture
+## 3. Burn Mechanics
 
-LEVA introduces a burn-based coordination model. Unlike staking or fee-based systems, value capture does not rely on redistributive mechanics, inflation, or treasury flows. Instead, value accrues through one mechanism: irreversible execution.
-
-Each time a user burns LEVA, they trigger a schema-bound agent that produces a deterministic, auditable output. This output is generated within a controlled schema registry and linked cryptographically to the burn event. The execution path is archived via IPFS and distributed through webhook/email output layers.
-
-There are no protocol fees, validator cuts, or liquidity taxes. The protocol does not collect revenue. All economic value is linked to function: burn to execute. The more coordination occurs, the more supply is reduced. The system gains trust and utility, not speculation.
-
-This model allows downstream builders — schema authors, validator networks, and external automation flows — to integrate LEVA into higher-order workflows. No permissions are needed. No governance overhead is introduced. Protocol usage becomes infrastructure-grade.
+Every resolved orchestration pathway requires permanent supply exit:
+- Each schema-bound agent consumes LEVA to generate an immutable output.
+- Burn event triggers a cryptographic record, version tag, and supply update.
+- No recirculation: what burns exits supply forever.
 
 ---
 
-## 5. Governance Model
+## 4. Staking & Utility
 
-LEVA is not a governance token. It introduces no voting rights, proposal mechanics, or stakeholder consensus models. Protocol change does not occur through token-weighted decisions but through schema evolution, validator participation, and forkability.
+Holders can stake to gain **structured utility**, not passive emissions:
 
-The execution layer is immutable by design. Agents, once registered, are tied to fixed schemas and logic paths. Any new direction for the protocol must emerge through open development, not internal control.
-
-In this sense, LEVA is anti-fragile. It requires no DAO, no multisig, and no governance coordination. Execution replaces governance.
-
----
-
-## 6. Structural Guarantees
-
-- LEVA has not raised external capital to date.  
-- There are no presales, no private allocations, and no token-based advisory programs.  
-- No airdrops are planned or executed.  
-- No emissions occur post-launch.  
-- Token utility is singular: burn for execution.  
-- Protocol operation is non-custodial and irreversible.
+- **Burn Credits:** Staked positions unlock execution at discounted cost.
+- **Delegation:** Staked holders can assign burn credits to portfolio companies, teams, or partner projects.
+- **Unlocks:** Access to higher-order agent pathways and testnet modules.
+- **No Passive Yield:** Rewards are supply-exit linked; no new units minted.
 
 ---
 
-## 7. Design Intent
+## 5. Value Model
 
-LEVA is designed to disappear.
+LEVA does not generate treasury fees, hidden royalties, or central redistribution.  
+All value flows through *supply finality* — the more orchestration runs, the more supply exits permanently.
 
-Its token does not represent future rights, stake, or yield. It represents the cost of irreversible action. Once used, it is gone — burned permanently as a signal of coordination. What remains is the output: a strategic action tied to a registered schema and a timestamped execution record.
-
-This structure enables the protocol to scale without requiring community retention, inflationary incentives, or governance theatre. It enables builders to rely on deterministic logic, not human negotiation.
-
-LEVA is not the centre of the system. Execution is. Every burn advances that principle.
+Downstream builders and validators integrate directly with the ignition condition. No permission or governance vote required.
 
 ---
 
-For live registries, contract references, schema logic, and verified burn logs, visit:  
-https://github.com/leva-token-assets/leva
+## 6. Governance Model
+
+LEVA is not a voting token by default.  
+- No on-chain DAO with treasury proposals.
+- No token-weighted governance for day-to-day upgrades.
+- Change emerges through registry validators, schema maintainers, and forks.
+- Execution replaces governance — each burn event leaves a final record.
+
+---
+
+## 7. Safeguards
+
+- No private insider rounds or side deals.  
+- No advisory emissions.  
+- No retroactive unlocks.  
+- No airdrops.  
+- Once launched, supply moves one way: *burned or staked → consumed.*
+
+---
+
+## 8. Design Intent
+
+LEVA is engineered as **the disappearing trigger**:
+- It represents the cost of resolved action — not idle speculation.
+- Burn → version → proof → exit supply.
+- What remains is the execution: registered, timestamped, verifiable.
+
+No passive holders, no inflation churn — only a finite layer that underwrites real strategy throughput.
+
+---
+
+**Registry, smart contract, and schema references:**  
+[github.com/leva-token-assets/leva](https://github.com/leva-token-assets/leva)
+
+---
+
+**End.**
