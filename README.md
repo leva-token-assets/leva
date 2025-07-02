@@ -24,11 +24,6 @@ No staking. No passive emissions. Only provable execution.
 - **Schema:** `/registry/agent-001.json`  
 - **Output:** `https://leva.io/output/AGENT-001/tx/0xABCDEF1234567890`
 
-**Verification Links:**  
-- [View Burn on Basescan](https://basescan.org/tx/0xABCDEF1234567890)  
-- [View Output](https://leva.io/output/AGENT-001/tx/0xABCDEF1234567890)  
-- [Check Token Supply](https://basescan.org/token/0xYOURTOKENADDRESS)
-
 ---
 
 ## 📂 Registry Example
